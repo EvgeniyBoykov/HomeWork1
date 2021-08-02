@@ -23,7 +23,7 @@
         // в консоль сообщение “Сумма положительная”, в противном случае - “Сумма отрицательная”;
         public static void checkSumSign()
         {
-            int a = -5;
+            int a = -3;
             int b =0;
             int sum = a + b;
             if (sum >= 0)
@@ -41,7 +41,7 @@
         // то “Желтый”, если больше 100 (100 исключительно) - “Зеленый”;
         public static void printColor()
         {
-            int value = 101;
+            int value = 102;
             if (value <= 0)
             {
                 System.out.println("Красный");
